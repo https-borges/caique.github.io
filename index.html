@@ -1,0 +1,67 @@
+<!DOCTYPE html5>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caique Borges</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>Caique Borges</div>
+        <nav> <!--parte de navegação da pagina-->
+            <ul>
+                <li><a href="#sobre_mim">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1 id="sobre_mim">Sobre Mim</h1>
+            <p>
+                Meu nome é Caique Borges, tenho 20 anos e sou apaixonado por tecnologias. Dessa paixão surgiu meu interesse pela programação, que além de ser uma área na qual estou tentando exercer uma profissão, também se tornou um dos meus hobbies. Atualmente, trabalho no Outback como Treinador e estou buscando migrar para a área de Desenvolvimento de Software.
+            </p>
+        </section>
+        <section>
+            <h1 id="formacao">Formação</h1>
+            <ul> <!--utilizando lista não ordenadas para listar minha formação-->
+                <li>Analise e desenvolvimento de sistemas, Uninter 2024 - 2026</li>
+                <li>Curso profissionalizante Jovem Aprendiz, com cargas horárias distribuídas em informática e auxiliar de escritório.</li>
+                <li>Ensino Médio, Ayrton Senna 2019 - 2021</li>
+            </ul>
+        </section>
+        <section>
+            <h1 id="portfolio">Portfólio</h1> <!--falando sobre meu pobre portifólio-->
+            <p>
+                Por estar ainda em periodo de aprendizagem ainda estou desenvolvendo meus primeiros projetos, por isso não tenho um portfólio solido. Vou deixar algumas fotos de páginas que desenvolvi em alguns exercicios de cursos.
+            </p>
+            <!--usando imagens para mostrar algumas paginas que fiz-->
+            <img src="imagens/site1.png" alt="site de exemplo">
+            <img src="imagens/site2.png" alt="site de exemplo">
+            <img src="imagens/site3.png" alt="site de exemplo">
+            <img src="imagens/site4.png" alt="site de exemplo">
+        </section>
+        <section class="form">
+            <h1 id="contato">Contato</h1>
+            <p>
+                Se quiser falar comigo, basta preencher o formulario a abaixo!
+            </p>
+            <form action="" method="post"> <!--tentando desenvolver um formulario-->
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+        
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        </body>
+    </main>
+</html>
